@@ -1,0 +1,46 @@
+.hp img{
+    width: 1260px;
+    height: 400px;
+    padding-top: 20px ;
+}
+
+.hp h2{
+    text-align: center;
+    padding-top: 20px;
+}
+#btn1{
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+}
+
+body{
+    font-family: sans-serif;
+    transition: 0.5s ease-in-out;
+}
+
+.light-mode{
+    background-color: #1d1c1c;
+    color: white;
+}
+
+.error{
+    color:red;
+    display: none;
+}
+ 
+#toplink, #botlink {
+	position: fixed;
+	right: 40px;
+	bottom:40px;
+	padding: 11px 9px 11px 11px;
+	margin: 0 -20px 0 0;
+	color: #666;
+	font-size: 1.5em;
+	background: #f0f0f0 url(images/Standard/catbg.gif) 0 5px repeat-x;
+	border: 1px solid #b4b4b4;
+	border-bottom: 1px solid #b8b8b8;
+	border-radius: 6px 3px 0 0;
+	z-index: 99;
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.25);
+}
